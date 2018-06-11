@@ -1,0 +1,15 @@
+body{
+  font-family: 'Permanent Marker', cursive;
+}
+
+.mainContentContainer{
+  height:100vh;
+  background: url("./img/bgImage.jpg");
+  background-size:cover;
+}
+
+.heading{
+  font-family: "Permanent Marker", cursive;
+  text-align: center;
+  margin-top: auto;
+}
