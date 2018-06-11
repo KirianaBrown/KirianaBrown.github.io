@@ -41,7 +41,7 @@ nav a:hover{
 }
 
 #showcase{
-  height:45vh;
+  height:55vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -50,7 +50,7 @@ nav a:hover{
 }
 
 #showcase h1{
-  font-size: 4em;
+  font-size: 6em;
 }
 
 .button{
