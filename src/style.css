@@ -27,6 +27,7 @@ body{
 nav{
   font-size:1.5em;
   text-decoration: none;
+  padding: 10px;
 }
 
 nav a{
@@ -51,7 +52,13 @@ nav a:hover{
 
 #showcase h1{
   font-size: 6em;
+  color: #008080;
 }
+
+section{
+  text-align: center;
+}
+
 
 .button{
   font-size:1.2em;
@@ -59,8 +66,8 @@ nav a:hover{
   background-color: #00C8AA;
   border: #00C8AA 2px solid;
   border-radius: 15px;
-  padding:10px;
-  text-decoration: none;
+  padding:15px;
+  text-decoration: none!important;
 }
 
 .button:hover{
@@ -68,8 +75,4 @@ nav a:hover{
   /* background-color: #00A8AB; */
   border: #00A8AA 2px solid;
   color:black;
-}
-
-.jumbotron{
-  background: transparent!important;
 }
