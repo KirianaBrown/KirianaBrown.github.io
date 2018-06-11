@@ -9,13 +9,43 @@ body{
   background-repeat: no-repeat;
 }
 
-.contentContainer{
-  text-align: center;
-  background-color: none;
-}
-
-.heading{
+.mainContainer h1{
   font-family: "Permanent Marker", cursive;
   text-align: center;
   margin-top: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainContainer p{
+  text-align: center;
+  margin-top: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+#showcase{
+  height:50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  padding:25px;
+}
+
+#showcase .button{
+  font-size:1.2em;
+  color:white;
+  background-color: #00C8AA;
+  border: #00C8AA 2px solid;
+  border-radius: 15px;
+  padding:10px;
+  text-decoration: none;
+}
+
+#showcase .button:hover{
+  background-color: transparent;
+  /* background-color: #00A8AB; */
+  border: #00A8AA 2px solid;
+  color:black;
 }
