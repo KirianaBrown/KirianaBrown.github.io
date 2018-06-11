@@ -25,13 +25,14 @@ body{
 }
 
 nav{
-  font-size:2em;
+  font-size:1.5em;
   text-decoration: none;
 }
 
 nav a{
   color:black;
   text-decoration: none;
+  padding-right: 10px;
 }
 
 nav a:hover{
@@ -39,13 +40,17 @@ nav a:hover{
   color:grey;
 }
 
-
 #showcase{
+  height:45vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items:center;
   padding:25px;
+}
+
+#showcase h1{
+  font-size: 4em;
 }
 
 #showcase .button{
