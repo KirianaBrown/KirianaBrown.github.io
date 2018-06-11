@@ -2,10 +2,16 @@ body{
   font-family: 'Permanent Marker', cursive;
 }
 
-.mainContentContainer{
+.mainContainer{
   height:100vh;
-  background: url("./img/bgImage.jpg");
-  background-size:cover;
+  background: url('bgImage.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.contentContainer{
+  text-align: center;
+  background-color: none;
 }
 
 .heading{
