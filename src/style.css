@@ -1,5 +1,6 @@
 body{
-  font-family: 'Permanent Marker', cursive;
+  /* font-family: 'Permanent Marker', cursive; */
+  font-family:'Montserrat', sans-serif;
 }
 
 .mainContainer{
@@ -10,7 +11,8 @@ body{
 }
 
 .mainContainer h1{
-  font-family: "Permanent Marker", cursive;
+  /* font-family: "Permanent Marker", cursive; */
+  font-family:'Montserrat', sans-serif;
   text-align: center;
   margin-top: auto;
   justify-content: center;
@@ -27,6 +29,7 @@ body{
 nav{
   font-size:1.5em;
   text-decoration: none;
+  padding: 10px;
 }
 
 nav a{
@@ -40,8 +43,14 @@ nav a:hover{
   color:grey;
 }
 
+#logoImage{
+  height:100px;
+  width:auto;
+  align-items: center;
+}
+
 #showcase{
-  height:55vh;
+  height:35vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -51,19 +60,26 @@ nav a:hover{
 
 #showcase h1{
   font-size: 6em;
+  /* color: #008080; */
+  color:black;
 }
 
-#showcase .button{
+section{
+  text-align: center;
+}
+
+
+.button{
   font-size:1.2em;
   color:white;
   background-color: #00C8AA;
   border: #00C8AA 2px solid;
   border-radius: 15px;
-  padding:10px;
-  text-decoration: none;
+  padding:15px;
+  text-decoration: none!important;
 }
 
-#showcase .button:hover{
+.button:hover{
   background-color: transparent;
   /* background-color: #00A8AB; */
   border: #00A8AA 2px solid;
