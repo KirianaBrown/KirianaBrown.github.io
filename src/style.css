@@ -1,5 +1,6 @@
 body{
-  font-family: 'Permanent Marker', cursive;
+  /* font-family: 'Permanent Marker', cursive; */
+  font-family:'Montserrat', sans-serif;
 }
 
 .mainContainer{
@@ -10,7 +11,8 @@ body{
 }
 
 .mainContainer h1{
-  font-family: "Permanent Marker", cursive;
+  /* font-family: "Permanent Marker", cursive; */
+  font-family:'Montserrat', sans-serif;
   text-align: center;
   margin-top: auto;
   justify-content: center;
@@ -41,8 +43,14 @@ nav a:hover{
   color:grey;
 }
 
+#logoImage{
+  height:100px;
+  width:auto;
+  align-items: center;
+}
+
 #showcase{
-  height:55vh;
+  height:35vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -52,7 +60,8 @@ nav a:hover{
 
 #showcase h1{
   font-size: 6em;
-  color: #008080;
+  /* color: #008080; */
+  color:black;
 }
 
 section{
