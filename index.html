@@ -5,8 +5,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, inital-scale=1">
 
+
     <link rel="stylesheet" type="text/css"  href="./src/style.css">
-    <link rel="icon" type="image/gif" href="favicon.png">
+    <link rel="icon" type="image/gif" href="./src/logo1.png">
     <!-- Add Bootstrap Style Sheet -->
     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
     <!-- Google Fonts -->
@@ -16,6 +17,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <script src="./src/script.js"></script>
+
   </head>
 
   <body>
@@ -34,6 +36,20 @@
         <a href="https://github.com/KirianaBrown" class="fa fa-github icon" alt="Github" target="_blank"></a>
       </section>
     </div>
+    <div class="container-fluid secondContainer">
+      <img src="./src/logo1.png"alt="KB Logo" id="logoImage"/>
+      <h1 align="center"> Projects </h1>
+      <div class="card">
+        <div class="card-title"> Magic 8 Ball </div>
+          <div class="card-body">
+            <input id="userInput" type="text" placeholder="Ask a Question"></input>
+            <button type="button" onclick="magic8Ball()">Submit</button>
+            <p id="response"></p>
+
+          </div>
+      </div>
+    </div>
   </body>
+
 
 </html>
