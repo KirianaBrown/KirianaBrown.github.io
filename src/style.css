@@ -28,9 +28,6 @@ body{
   align-items: center;
 }
 
-
-
-
 #logoImage{
   height:100px;
   width:auto;
@@ -52,6 +49,8 @@ body{
   color:black;
 }
 
+/* ///////////////////////////////////////////////////////////////////////// */
+
 section{
   text-align: center;
   justify-content: center;
@@ -68,12 +67,10 @@ section{
   padding-right: 10px;
 }
 
-
 .icon:hover{
   text-decoration: none;
   color:grey;
 }
-
 
 .button{
   font-size:1.2em;
@@ -90,4 +87,29 @@ section{
   /* background-color: #00A8AB; */
   border: #00A8AA 2px solid;
   color:black;
+}
+
+footer{
+  text-align: center;
+  width:100%;
+  position:fixed;
+  bottom:0px;
+  font-size: 2em;
+}
+
+#downArrowIcon {
+    -webkit-animation: bounceAnimation 1s infinite; /* Safari 4.0 - 8.0 */
+    animation: bounceAnimation 2s infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes bounceAnimation {
+    from {top: 0px;}
+    to {top: 10px;}
+}
+
+/* Standard syntax */
+@keyframes bounceAnimation {
+    from {top: 0px;}
+    to {top: 10px;}
 }
