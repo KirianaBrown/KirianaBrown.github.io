@@ -1,6 +1,7 @@
 body{
   /* font-family: 'Permanent Marker', cursive; */
   font-family:'Montserrat', sans-serif;
+  /* color:#be9b7b!important; */
 }
 
 .mainContainer{
@@ -89,6 +90,8 @@ section{
   color:black;
 }
 
+/* ///////////////////////////////////////////////////////////// */
+
 footer{
   text-align: center;
   width:100%;
@@ -97,19 +100,27 @@ footer{
   font-size: 2em;
 }
 
-#downArrowIcon {
-    -webkit-animation: bounceAnimation 1s infinite; /* Safari 4.0 - 8.0 */
-    animation: bounceAnimation 2s infinite;
+
+footer > h6{
+  font-size: 0.4em;
+  margin-bottom: -2px;
 }
 
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes bounceAnimation {
-    from {top: 0px;}
-    to {top: 10px;}
+
+
+footer > i {
+  -webkit-animation: bounce .3s infinite alternate;
+  -moz-animation: bounce .3s infinite alternate;
+  animation: bounce .3s infinite alternate;
+  animation-iteration-count: 50;
 }
 
-/* Standard syntax */
-@keyframes bounceAnimation {
-    from {top: 0px;}
-    to {top: 10px;}
+@-webkit-keyframes bounce {
+  to { -webkit-transform: scale(1.1); }
+}
+@-moz-keyframes bounce {
+  to { -moz-transform: scale(1.1); }
+}
+@keyframes bounce {
+  to { transform: scale(1.1); }
 }
