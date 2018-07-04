@@ -41,6 +41,8 @@ body{
   align-items: center;
 }
 
+/* ///////////////////////////////////////////////////////////////////// */
+
 .mainText{
   height:35vh;
   display: flex;
@@ -57,7 +59,9 @@ body{
 }
 
 section{
-  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
 }
 
 .icon{
@@ -74,6 +78,9 @@ section{
   text-decoration: none;
   color:grey;
 }
+
+
+/* ///////////////////////////////////////////////////////////////////// */
 
 
 .button{
