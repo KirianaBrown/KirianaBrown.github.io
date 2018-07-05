@@ -167,6 +167,7 @@ footer > i {
 .rightSideColumn{
   height:89vh;
   background-color: white;
+  opacity: 0.9;
 }
 
 .leftSideColumn > h2 {
