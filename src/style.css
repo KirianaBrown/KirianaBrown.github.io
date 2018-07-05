@@ -1,6 +1,7 @@
 body{
   /* font-family: 'Permanent Marker', cursive; */
   font-family:'Montserrat', sans-serif;
+  /* color:#be9b7b!important; */
 }
 
 .mainContainer{
@@ -28,9 +29,6 @@ body{
   align-items: center;
 }
 
-
-
-
 #logoImage{
   height:100px;
   width:auto;
@@ -52,6 +50,8 @@ body{
   color:black;
 }
 
+/* ///////////////////////////////////////////////////////////////////////// */
+
 section{
   text-align: center;
   justify-content: center;
@@ -68,12 +68,10 @@ section{
   padding-right: 10px;
 }
 
-
 .icon:hover{
   text-decoration: none;
   color:grey;
 }
-
 
 .button{
   font-size:1.2em;
@@ -90,4 +88,39 @@ section{
   /* background-color: #00A8AB; */
   border: #00A8AA 2px solid;
   color:black;
+}
+
+/* ///////////////////////////////////////////////////////////// */
+
+footer{
+  text-align: center;
+  width:100%;
+  position:fixed;
+  bottom:0px;
+  font-size: 2em;
+}
+
+
+footer > h6{
+  font-size: 0.4em;
+  margin-bottom: -2px;
+}
+
+
+
+footer > i {
+  -webkit-animation: bounce .3s infinite alternate;
+  -moz-animation: bounce .3s infinite alternate;
+  animation: bounce .3s infinite alternate;
+  animation-iteration-count: 50;
+}
+
+@-webkit-keyframes bounce {
+  to { -webkit-transform: scale(1.1); }
+}
+@-moz-keyframes bounce {
+  to { -moz-transform: scale(1.1); }
+}
+@keyframes bounce {
+  to { transform: scale(1.1); }
 }
