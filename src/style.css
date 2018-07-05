@@ -207,6 +207,7 @@ footer > i {
 
 .card{
   display:inline-block!important;
+  border:none!important;
 }
 
 .card-title{
@@ -214,12 +215,16 @@ footer > i {
 }
 
 .card-text{
-  font-size:1em;
+  font-size:0.8em;
   color: #BA55D3;
 }
 
 .technologies{
-  font-size:0.9em;
+  font-size:0.6em;
   color:grey;
   padding:5px;
+}
+
+.card-img{
+  font-size: 2em;
 }
