@@ -139,7 +139,7 @@ footer > h6{
   margin-bottom: -2px;
 }
 
-footer > i {
+#downArrowIcon{
   -webkit-animation: bounce .3s infinite alternate;
   -moz-animation: bounce .3s infinite alternate;
   animation: bounce .3s infinite alternate;
