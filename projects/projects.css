@@ -50,6 +50,8 @@ body{
   font-weight: bold;
   margin: 5px;
   padding:8px;
+  font-size: 1.5em;
+  margin-top: 20px;
 }
 
 .leftSideColumn > p {
@@ -64,10 +66,29 @@ body{
   letter-spacing: 4px;
   margin: 5px;
   padding:10px;
+  font-size:1.5em;
 }
 
 .rightSideColumn > p{
   padding:5px;
   font-size: 0.8em;
   margin-top:5px;
+}
+
+.rightSideColumn > img{
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-left:20px;
+}
+
+li {
+  padding:10px;
+}
+
+/* ///////////////////////////////////////////////////////////////// */
+
+.wireframeImage{
+  padding:5px;
+  margin-top:10px!important;
 }
