@@ -8,7 +8,8 @@ body{
   justify-content: center;
   align-items: center;
   display: flex;
-  background: url('IMG_9666 copy.jpg');
+  /* background: url('IMG_9666 copy.jpg'); */
+  background: url('bgimage.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -18,8 +19,8 @@ body{
   width: 90vw;
   margin-top:auto!important;
   margin-bottom: auto;
-  background-color: white;
-  opacity:0.5;
+  /* background-color: white;
+  opacity:0.5; */
 }
 
 .secondContainer{
@@ -28,7 +29,8 @@ body{
   justify-content: center;
   align-items: center;
   display: flex;
-  background: url('IMG_9666 copy.jpg');
+  /* background: url('IMG_9666 copy.jpg'); */
+  background: url('bgimage.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
