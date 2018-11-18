@@ -14,6 +14,11 @@ body{
   font-style: normal;
 }
 
+h1, h2, h3, h4, h5, h6{
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
 a{
   text-decoration: none;
   color:black;
@@ -45,9 +50,13 @@ main{
   margin-top: 3.5em;
 }
 
+.content-wrapper{
+  width:80%;
+  margin: auto;
+}
+
 header h1{
-  text-transform: uppercase;
-  letter-spacing: 2px;
+
   padding-left: 1.5em;
   font-size:0.8em;
 }
@@ -105,6 +114,59 @@ footer p{
 }
 
 /* ###################################################################
+PROJECT BOXES */
+
+#projectsHeading{
+  margin-left: 2em;
+}
+
+
+.container-for-projects{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+.project-container-main{
+  grid-column: 1/5;
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center!important;
+  align-content: center;
+  background-color: orange;
+}
+
+.box{
+  width:28em;
+  height:20em;
+  background-color: blue;
+  /* background-image: linear-gradient(to right,#f2f2f2 , white); */
+  padding:1em;
+}
+
+.box:hover{
+  background-image: linear-gradient(to right,#e6e6e6 , white);
+}
+
+.box-large{
+  width:36em;
+  height:30em;
+  background-image: linear-gradient(to right,#f2f2f2 , white);
+  padding:1em;
+  margin:1em;
+}
+
+.box-smaller{
+  background-image: linear-gradient(to right,#f2f2f2 , white);
+  padding:1em;
+  margin:1em;
+  width:10em;
+  height:10em;
+}
+
+
+
+/* ###################################################################
 ABOUT PAGE */
 
 main{
@@ -123,6 +185,9 @@ main{
   font-family: mine;
 }
 
+/* ###################################################################
+PARALLAX*/
+
 .image-container{
   background-color: black;
 }
@@ -132,14 +197,14 @@ main{
     background-image: url("bgimage1.jpg");
 
     /* Set a specific height */
-    height: 500px;
+    height: 400px;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.4;
+    opacity: 0.5;
 }
 
 .parallax2 {
