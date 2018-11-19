@@ -120,50 +120,50 @@ PROJECT BOXES */
   margin-left: 2em;
 }
 
-
-.container-for-projects{
-  display:grid;
-  grid-template-columns: 1fr 1fr;
-
-}
-
 .project-container-main{
-  grid-column: 1/5;
   display:grid;
   grid-template-columns: 1fr 1fr;
-  justify-content: center!important;
+  justify-content: center;
   align-content: center;
-  background-color: orange;
+  margin-left: 4em;
+  margin-right: 4em;
 }
 
-.box{
-  width:28em;
-  height:20em;
-  background-color: blue;
-  /* background-image: linear-gradient(to right,#f2f2f2 , white); */
+.box-main{
+  width:30em;
+  height:24em;
   padding:1em;
+  border:2px solid black;
+  margin: auto;
+  margin-bottom: 2em;
 }
 
-.box:hover{
-  background-image: linear-gradient(to right,#e6e6e6 , white);
+.project-container-secondary{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-content: center;
+  margin-left: 4em;
+  margin-right: 4em;
 }
 
-.box-large{
-  width:36em;
-  height:30em;
-  background-image: linear-gradient(to right,#f2f2f2 , white);
+.box-main-secondary{
+  width:40em;
+  height:24em;
   padding:1em;
-  margin:1em;
+  border:2px solid black;
+  margin:0;
+  margin-bottom: 2em;
 }
 
-.box-smaller{
-  background-image: linear-gradient(to right,#f2f2f2 , white);
-  padding:1em;
-  margin:1em;
-  width:10em;
+.box-secondary-small div{
+  width:20em;
   height:10em;
+  padding:1em;
+  border:2px solid black;
+  margin: auto;
+  margin-bottom: 2em;
 }
-
 
 
 /* ###################################################################
