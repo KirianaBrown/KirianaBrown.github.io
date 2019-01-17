@@ -33,6 +33,10 @@ h6 {
     text-transform: uppercase;
 }
 
+p {
+    font-size: 0.8em;
+}
+
 a {
     text-decoration: none;
     color: black;
@@ -108,6 +112,8 @@ SPLASH */
     color: white;
     font-size: 1.5em;
     margin-top: 4em;
+    text-transform: uppercase;
+    cursor: pointer;
 }
 
 
@@ -172,7 +178,41 @@ img {
 
 
 /* ###################################################################
-*/
+TECHNOLOGIES */
+
+#technologies h2 {
+    text-align: center;
+}
+
+.technology-icons {
+    font-size: 4em;
+    color: #00264d;
+    opacity: 0.4;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    grid-column: 2/4;
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+
+.technology-icons i {
+    padding-right: .5em;
+    padding-left: .5em;
+}
+
+.technology-icons i:hover {
+    color: #00264d;
+    opacity: 0.6;
+}
+
+.technologies-content {
+    grid-column: 2/4;
+}
+
+
+/* ###################################################################
+ */
 
 main {
     margin-top: 3.5em;
@@ -312,7 +352,6 @@ main {
     margin: 0 auto;
     padding: 0.5em;
     font-size: 0.8em;
-    grid-colu
 }
 
 .center-content h1 {
