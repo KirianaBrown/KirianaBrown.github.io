@@ -47,6 +47,10 @@ a:hover {
     color: tan;
 }
 
+#headingTitle:hover {
+    color: black;
+}
+
 
 /* ###################################################################
 HEADER */
@@ -143,6 +147,8 @@ section {
     justify-content: center!important;
     align-items: center;
     padding: 1em;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
 .about-name {
@@ -383,7 +389,7 @@ PARALLAX*/
     /* The image used */
     background-image: url("closeup.jpeg");
     /* Set a specific height */
-    height: 400px;
+    height: 450px;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
