@@ -43,12 +43,6 @@ a:hover {
     color: tan;
 }
 
-#aboutName {
-    text-transform: none;
-    letter-spacing: 6px;
-    font-size: 3.5em;
-}
-
 
 /* ###################################################################
 HEADER */
@@ -70,12 +64,28 @@ header {
 }
 
 nav ul a li {
-    text-align: center;
+    text-align: center!important;
+}
+
+nav ul {
+    display: flex;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+li {
+    list-style-type: none;
+    padding-right: 1em;
+    padding-left: 1em;
+    text-transform: uppercase;
+    font-size: 0.8em;
 }
 
 #navBorder {
     border: black solid 2px;
+    padding: 0.25em 0.5em 0.25em 0.5em;
     background: none;
+    margin-top: -.3em;
 }
 
 
@@ -118,6 +128,50 @@ SPLASH */
 
 
 /* ###################################################################
+ABOUT SECTION*/
+
+section {
+    grid-column: 1/4;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: center!important;
+    align-items: center;
+    padding: 1em;
+}
+
+.about-name {
+    grid-column: 1/4;
+    text-transform: none;
+    letter-spacing: 6px;
+    font-size: 3.5em;
+    font-family: mine;
+    text-align: center;
+}
+
+.image-container {
+    grid-column: 1/2;
+    align-content: center;
+    justify-content: center!important;
+}
+
+img {
+    width: 14em;
+    height: auto;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.about-content {
+    grid-column: 2/4;
+}
+
+.about-content p {
+    font-size: 0.8em;
+}
+
+
+/* ###################################################################
 */
 
 main {
@@ -131,18 +185,6 @@ main {
 
 header h1 {
     padding-left: 1.5em;
-    font-size: 0.8em;
-}
-
-nav ul {
-    display: flex;
-    padding-right: 2em;
-}
-
-li {
-    list-style-type: none;
-    padding-right: 2em;
-    text-transform: uppercase;
     font-size: 0.8em;
 }
 
@@ -270,6 +312,7 @@ main {
     margin: 0 auto;
     padding: 0.5em;
     font-size: 0.8em;
+    grid-colu
 }
 
 .center-content h1 {
