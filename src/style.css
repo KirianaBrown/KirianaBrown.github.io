@@ -48,7 +48,9 @@ a {
 
 a:hover {
     /* color:#d1d4d7 */
-    color: tan;
+    /* color: tan; */
+    color: var(--navy);
+    font-weight: bold;
 }
 
 #headingTitle:hover {
@@ -113,13 +115,17 @@ SPLASH */
     margin-top: 6em;
 }
 
+#firstParagraph {
+    font-size: 1.2em;
+}
+
 .go-button {
     border: white solid 2px;
     background: none;
     padding: .5em 1em .5em 1em;
     color: white;
     font-size: 1.5em;
-    margin-top: 4em;
+    margin-top: 3em;
     text-transform: uppercase;
     cursor: pointer;
 }
@@ -163,6 +169,7 @@ section {
     font-size: 3.5em;
     font-family: mine;
     text-align: center;
+    margin: 0.5em;
 }
 
 .image-container {
