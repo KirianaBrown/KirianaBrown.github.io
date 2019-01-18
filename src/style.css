@@ -258,11 +258,11 @@ CONNECT */
 
 .social-connect i {
     color: var(--navy);
-    font-size: 2em;
+    font-size: 3em;
     padding-left: 0.5;
     padding-right: 0.5;
-    margin-left: 1em;
-    margin-right: 1em;
+    margin-left: .5em;
+    margin-right: .5em;
 }
 
 .social-connect i:hover {
