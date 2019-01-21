@@ -515,7 +515,7 @@ MEDIA QUERY */
         font-size: 3em;
     }
     .social-connect i {
-        font-size: 2.5em;
+        font-size: 2em;
     }
     .technology-icons {
         display: flex;
@@ -524,5 +524,11 @@ MEDIA QUERY */
     }
     .technology-icons i {
         padding: 0.25em;
+    }
+    .entry-text p {
+        padding: .8em;
+    }
+    .parallax {
+        height: 100vh;
     }
 }
