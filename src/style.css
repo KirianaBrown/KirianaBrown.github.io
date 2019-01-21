@@ -310,6 +310,8 @@ PROJECT BOXES */
 .project-box {
     height: 12em;
     border: #e9ecef solid 1px;
+    background-color: var(--navy);
+    background-image: url('bgimage1.jpg');
     padding: 1em;
     box-shadow: 2px 2px 2px 1px var(--navy);
     -webkit-transition: -webkit-transform 0.5s ease;
