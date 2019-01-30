@@ -163,13 +163,12 @@ section {
 }
 
 .about-name {
-    grid-column: 1/4;
+    grid-column: 2/4;
     text-transform: none;
     letter-spacing: 6px;
     font-size: 3.5em;
     font-family: mine;
-    text-align: center;
-    margin: 0.5em;
+    /* margin: 0.5em; */
 }
 
 .image-container {
@@ -406,6 +405,7 @@ MEDIA QUERY */
     .about-name {
         font-size: 2.4em;
         margin-top: 1em;
+        text-align: center;
     }
     .social-connect i {
         font-size: 2em;
