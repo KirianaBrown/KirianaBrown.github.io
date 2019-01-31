@@ -162,6 +162,10 @@ section {
     margin-bottom: 2em;
 }
 
+.section-headings {
+    margin-left: 2em;
+}
+
 .about-name {
     grid-column: 2/4;
     text-transform: none;
@@ -196,10 +200,6 @@ img {
 
 /* ###################################################################
 TECHNOLOGIES */
-
-#technologies h2 {
-    text-align: center;
-}
 
 .technology-icons {
     font-size: 4em;
@@ -293,7 +293,7 @@ footer p {
 PROJECT BOXES */
 
 #projectsHeading {
-    margin-left: 2em;
+    /* margin-left: 2em; */
 }
 
 .project-containers {
@@ -324,6 +324,10 @@ PROJECT BOXES */
     -o-transform: scale(1.05);
     transform: scale(1.05);
 }
+
+
+/* ###################################################################
+TECHNOLOGIES */
 
 
 /* ###################################################################
