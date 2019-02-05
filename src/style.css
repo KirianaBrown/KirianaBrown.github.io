@@ -57,6 +57,26 @@ a:hover {
     color: black;
 }
 
+#returnToTopButton {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #004c9a;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+#returnToTopButton:hover {
+    background-color: #555;
+}
+
 
 /* ###################################################################
 HEADER */
