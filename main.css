@@ -22,6 +22,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 1em;
 }
 
 header h1 {
@@ -33,20 +34,12 @@ nav {
     display: flex;
     justify-items: flex-end;
     font-size: 0.8em;
+    text-transform: uppercase;
 }
 
 li {
     list-style-type: none;
     padding: 0 1em 0 1em;
-}
-
-section {
-    width: 100%;
-    height: 80vh;
-    padding-top: 1em;
-    margin: auto;
-    display: flex;
-    justify-content: space-between
 }
 
 img {
@@ -62,4 +55,22 @@ footer {
     font-size: 0.7em;
     display: flex;
     justify-content: space-between;
+    text-transform: uppercase;
+    color: black!important;
+}
+
+.carousel {
+    /* position: relative; */
+    height: calc(100vh - 170px);
+}
+
+.carousel-item {
+    height: calc(100vh - 170px);
+}
+
+.carousel-item img {
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+    min-height: calc(100vh - 170px);
 }
