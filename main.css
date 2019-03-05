@@ -13,8 +13,12 @@
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none!important;
     color: black;
+}
+
+a:hover {
+    color: slategray;
 }
 
 body {
@@ -34,6 +38,10 @@ header h1 {
     font-family: mine;
     letter-spacing: 6px;
     cursor: pointer;
+}
+
+header h1 a:hover {
+    color: black!important;
 }
 
 nav {
