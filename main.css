@@ -52,11 +52,6 @@ nav {
     cursor: pointer;
 }
 
-navbar-nav {
-    display: flex;
-    justify-items: space-between;
-}
-
 li {
     list-style-type: none;
     padding: 0 1em 0 1em;
