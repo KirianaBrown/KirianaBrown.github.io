@@ -89,3 +89,44 @@ footer {
     left: 0; */
     min-height: calc(100vh - 170px);
 }
+
+
+/* ######################################## */
+
+.about-content {
+    width: 60%;
+    margin: auto;
+    margin-top: 2em;
+}
+
+.about-content h1 {
+    text-transform: uppercase;
+}
+
+.about-content h5 {
+    line-height: 1.5;
+}
+
+.about-secondary-content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+}
+
+#aboutImage {
+    grid-column: 1/2;
+    /* border-radius: 50%; */
+    /* width: 50%; */
+    height: 50vh;
+    width: auto;
+    padding: 1em;
+}
+
+.about-secondary-content p {
+    font-size: 1.8vh;
+    line-height: 2;
+}
+
+.about-main-content {
+    grid-column: 2/3;
+}
