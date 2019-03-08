@@ -130,3 +130,36 @@ footer {
 .about-main-content {
     grid-column: 2/3;
 }
+
+
+/* ######################################## */
+
+.card-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+}
+
+.card {
+    padding: .5em;
+}
+
+.one {
+    grid-column: 1/2;
+}
+
+.two {
+    grid-column: 2/3;
+}
+
+.three {
+    grid-column: 3/3;
+}
+
+.four {
+    grid-column: 1/2;
+}
+
+.five {
+    grid-column: 2/3;
+}
