@@ -52,6 +52,10 @@ nav {
     cursor: pointer;
 }
 
+.selected {
+    color: grey;
+}
+
 li {
     list-style-type: none;
     padding: 0 1em 0 1em;
