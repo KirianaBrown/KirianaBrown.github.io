@@ -162,10 +162,11 @@ footer {
 
 .card {
     padding: .5em;
+    margin-top: 1em;
 }
 
 .card-img-top {
-    height: 10em;
+    height: 8em;
     width: auto;
     margin: auto;
 }
