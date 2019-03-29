@@ -183,3 +183,68 @@ footer {
     height: 8em;
     padding: 0.5em;
 }
+
+
+/* Responsive Design */
+
+@media only screen and (max-width: 600px) {
+    body {
+        padding: 1em;
+    }
+    header h1 {
+        font-size: 1.2em;
+        padding: 1em;
+    }
+    header {
+        align-items: center!important;
+    }
+    .carousel {
+        /* position: relative; */
+        height: calc(100vh - 370px);
+        margin-top: 4em;
+    }
+    .carousel-item {
+        height: calc(100vh - 370px);
+    }
+    .carousel-item img {
+        min-height: calc(100vh - 370px);
+    }
+    .about-content {
+        display: grid;
+        grid-template-columns: 100%;
+        width: 100%;
+        padding: 1em;
+    }
+    .content-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-top: 1em;
+    }
+    .image-container {
+        grid-column: 1/2;
+    }
+    .info-container {
+        grid-column: 1/2;
+        font-size: 1.8vh;
+        /* margin-top: .8em; */
+        line-height: 1.7;
+        padding: 1em;
+    }
+    .page-footer {
+        position: static;
+    }
+    .card-grid {
+        display: block;
+    }
+    .card {
+        padding: 1em;
+        box-shadow: none;
+        margin: auto;
+    }
+    .about-content h1 {
+        font-size: 0.8em;
+    }
+    .card:hover {
+        transform: none;
+    }
+}
