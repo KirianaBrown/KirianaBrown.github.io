@@ -238,10 +238,13 @@ footer {
     }
     .card {
         padding: 1em;
-        margin-bottom: 1em;
         box-shadow: none;
+        margin: auto;
     }
     .about-content h1 {
         font-size: 0.8em;
+    }
+    .card:hover {
+        transform: none;
     }
 }
