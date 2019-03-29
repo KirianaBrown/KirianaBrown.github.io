@@ -233,4 +233,15 @@ footer {
     .page-footer {
         position: static;
     }
+    .card-grid {
+        display: block;
+    }
+    .card {
+        padding: 1em;
+        margin-bottom: 1em;
+        box-shadow: none;
+    }
+    .about-content h1 {
+        font-size: 0.8em;
+    }
 }
