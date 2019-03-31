@@ -81,6 +81,7 @@ footer {
 .other-footer {
     position: static;
     margin-right: 0em!important;
+    padding-top: 2em;
 }
 
 .carousel {
