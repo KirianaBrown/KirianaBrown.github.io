@@ -152,54 +152,18 @@ footer {
 }
 
 
-/* ######################################## */
+/* ######################################## 
+    COLLECTION CARDS
+*/
 
-.card-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 1em;
-}
-
-
-/* .card {
-    padding: .5em;
-    margin-top: 1em;
-    -webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
-    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
-    transition: all .2s ease-in-out;
-} */
-
-
-/* .card-img-top {
-    height: 8em;
-    width: auto;
-    margin: auto;
-} */
-
-
-/* .card:hover {
-    transform: scale(1.02);
-} */
-
-#nzMusicLiveImage {
-    height: 8em;
-    padding: 0.5em;
-}
-
-.testing {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
-.container {
+.card-container {
     position: relative;
     margin-top: 50px;
     width: 500px;
     height: 300px;
 }
 
-.overlay {
+.card-overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -209,7 +173,7 @@ footer {
     transition: background 0.5s ease;
 }
 
-.container:hover .overlay {
+.card-container:hover .card-overlay {
     display: block;
     background: rgba(0, 0, 0, .3);
 }
@@ -222,7 +186,7 @@ img {
     opacity: 0.6;
 }
 
-.title {
+.card-title {
     position: absolute;
     width: 500px;
     left: 0;
@@ -237,11 +201,11 @@ img {
     transition: top .5s ease;
 }
 
-.container:hover .title {
+.card-container:hover .card-title {
     top: 90px;
 }
 
-.button {
+.card-button {
     position: absolute;
     width: 500px;
     left: 0;
@@ -251,7 +215,7 @@ img {
     transition: opacity .35s ease;
 }
 
-.button a {
+.card-button a {
     width: 200px;
     padding: 12px 48px;
     text-align: center;
@@ -260,11 +224,11 @@ img {
     z-index: 1;
 }
 
-.container:hover .button {
+.card-container:hover .card-button {
     opacity: 1;
 }
 
-.foo {
+.collection-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 0;
@@ -320,18 +284,15 @@ img {
     .page-footer {
         position: static;
     }
-    .card-grid {
-        display: block;
+    .collection-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0!important;
     }
-    .card {
-        padding: 1em;
-        box-shadow: none;
-        margin: auto;
-    }
-    .about-content h1 {
-        font-size: 0.8em;
-    }
-    .card:hover {
-        transform: none;
+    .card-container,
+    img,
+    .card-title,
+    .card-button {
+        width: 320px;
     }
 }
