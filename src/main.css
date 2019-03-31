@@ -78,6 +78,11 @@ footer {
     color: black!important;
 }
 
+.other-footer {
+    position: static;
+    margin-right: 0em!important;
+}
+
 .carousel {
     /* position: relative; */
     height: calc(100vh - 170px);
@@ -178,7 +183,7 @@ footer {
     background: rgba(0, 0, 0, .3);
 }
 
-img {
+.collection-image {
     position: absolute;
     width: 500px;
     height: 300px;
@@ -290,7 +295,7 @@ img {
         margin: 0!important;
     }
     .card-container,
-    img,
+    .collection-image,
     .card-title,
     .card-button {
         width: 320px;
