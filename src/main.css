@@ -219,6 +219,7 @@ img {
     width: 500px;
     height: 300px;
     left: 0;
+    opacity: 0.6;
 }
 
 .title {
@@ -230,7 +231,8 @@ img {
     font-size: 30px;
     text-align: center;
     text-transform: uppercase;
-    color: white;
+    /* color: white; */
+    color: black;
     z-index: 1;
     transition: top .5s ease;
 }
