@@ -165,7 +165,7 @@ footer {
 .card-container {
     position: relative;
     margin-top: 50px;
-    width: 500px;
+    width: 450px;
     height: 300px;
 }
 
@@ -186,7 +186,7 @@ footer {
 
 .collection-image {
     position: absolute;
-    width: 500px;
+    width: 450px;
     height: 300px;
     left: 0;
     opacity: 0.6;
@@ -194,7 +194,7 @@ footer {
 
 .card-title {
     position: absolute;
-    width: 500px;
+    width: 450px;
     left: 0;
     top: 120px;
     font-weight: 700;
@@ -213,7 +213,7 @@ footer {
 
 .card-button {
     position: absolute;
-    width: 500px;
+    width: 450px;
     left: 0;
     top: 180px;
     text-align: center;
@@ -237,6 +237,7 @@ footer {
 .collection-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
     margin-top: 0;
     margin: auto;
 }
