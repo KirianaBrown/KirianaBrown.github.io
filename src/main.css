@@ -10,6 +10,7 @@
     padding: 0;
     box-sizing: border-box;
     letter-spacing: 2px;
+    scroll-behavior: smooth;
 }
 
 a {
@@ -39,16 +40,6 @@ header {
     margin-bottom: 1em;
 }
 
-header h1 {
-    font-family: mine;
-    letter-spacing: 6px;
-    cursor: pointer;
-}
-
-header h1 a:hover {
-    color: black!important;
-}
-
 .navbar-brand {
     font-family: mine;
     letter-spacing: 6px;
@@ -64,6 +55,8 @@ nav {
     font-size: 0.8em;
     text-transform: uppercase;
     cursor: pointer;
+    background-color: white;
+    opacity: 0.94;
 }
 
 .navbar-toggler:focus {
@@ -88,7 +81,7 @@ img {
 footer {
     position: fixed;
     width: 90%;
-    bottom: 1em;
+    bottom: 0em;
     font-size: 0.7em;
     display: flex;
     justify-content: space-between;
@@ -98,16 +91,9 @@ footer {
     opacity: 0.95;
 }
 
-
-/* .other-footer {
-    position: static;
-    margin-right: 0em!important;
-    padding-top: 2em;
-} */
-
 .carousel {
-    /* position: relative; */
     height: calc(100vh - 170px);
+    margin-bottom: 2em;
 }
 
 .carousel-item {
@@ -115,10 +101,42 @@ footer {
 }
 
 .carousel-item img {
-    /* position: absolute;
-    top: 0;
-    left: 0; */
     min-height: calc(100vh - 170px);
+}
+
+.section-header {
+    font-family: 'Playfair Display', serif;
+}
+
+:target {
+    padding-top: 79px;
+    margin-top: -79px;
+    display: inline-block;
+}
+
+.r-flex-two-column {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.r-heading-column {
+    grid-column: 1/2 background-color: blue;
+    padding: 1em;
+}
+
+.r-content-section {
+    grid-column: 2/4 background-color: pink;
+    padding: 1em;
+}
+
+.r-technology-section {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 6em;
+}
+
+.r-technology-section li {
+    list-style-type: disc;
 }
 
 
@@ -136,6 +154,7 @@ footer {
 
 .carousel-caption h3 {
     font-size: 5em;
+    font-family: 'Playfair Display', serif;
 }
 
 .top-image-container {
