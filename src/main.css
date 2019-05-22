@@ -21,10 +21,15 @@ a:hover {
     color: slategray;
 }
 
+p {
+    font-size: 0.8em;
+}
+
 body {
     margin: auto;
     padding: 2em 4em 2em 4em;
-    font-family: Roboto;
+    /* font-family: Roboto; */
+    color: #4c4c4c;
 }
 
 header {
@@ -89,13 +94,16 @@ footer {
     justify-content: space-between;
     text-transform: uppercase;
     color: black!important;
+    background-color: white;
+    opacity: 0.95;
 }
 
-.other-footer {
+
+/* .other-footer {
     position: static;
     margin-right: 0em!important;
     padding-top: 2em;
-}
+} */
 
 .carousel {
     /* position: relative; */
@@ -119,19 +127,6 @@ footer {
 
 /* SECONDARY ABOUT CONTAINER */
 
-.contents-container-new {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
-
-.image-about {
-    height: 50vh;
-    width: auto;
-    padding: 1em;
-    border-radius: 50%;
-}
-
 .carousel-caption {
     width: 100%;
     height: 100%;
@@ -141,6 +136,87 @@ footer {
 
 .carousel-caption h3 {
     font-size: 5em;
+}
+
+.top-image-container {
+    height: 50vh;
+}
+
+.top-image {
+    width: 100%;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2.5em;
+    text-align: Center;
+}
+
+.statement {
+    font-style: italic;
+    font-family: 'Playfair Display', serif;
+    /* font-size: 2.2em; */
+}
+
+.opening-paragraph {
+    /* text-align: center; */
+    padding: 2em 4em 2em 4em;
+    font-size: 1.8em;
+    background-color: #f6f7f8;
+}
+
+.first-sentence {
+    font-style: bold;
+    color: black;
+    font-size: 1.6em;
+    font-family: 'Lato', sans-serif;
+}
+
+.flex-two-containers {
+    display: flex;
+    align-items: center;
+}
+
+.image-about {
+    height: 50vh;
+    width: auto;
+    margin: 0;
+    padding: 1em;
+    border-radius: 50%;
+}
+
+.flex-container-content {
+    padding: 4em;
+    line-height: 2;
+}
+
+.closing-paragraph {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 2em;
+    margin: 1em;
+}
+
+.closing-paragraph i {
+    color: white;
+    padding: .5em;
+}
+
+
+/* First Opening Sentence */
+
+.first-block {
+    text-align: center;
+    padding: 2em 0 2em 0;
+    margin: 0;
+    background-color: black;
+    color: white;
+    text-transform: uppercase
 }
 
 
