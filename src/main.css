@@ -54,11 +54,15 @@ header h1 a:hover {
 }
 
 nav {
-    display: flex;
-    justify-items: flex-end;
+    /* display: flex; */
+    /* justify-items: flex-end; */
     font-size: 0.8em;
     text-transform: uppercase;
     cursor: pointer;
+}
+
+.navbar-toggler:focus {
+    outline: none!important;
 }
 
 .selected {
