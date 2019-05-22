@@ -5,6 +5,13 @@
     src: url("fonts/Prestige Signature Script - Demo.ttf");
 }
 
+
+/* ############################################################
+
+    GENERAL DESIGN NOTES
+
+##############################################################*/
+
 * {
     margin: 0;
     padding: 0;
@@ -33,6 +40,33 @@ body {
     color: #4c4c4c;
 }
 
+img {
+    width: 80%;
+    height: 98%;
+    margin: auto;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0em;
+    font-size: 0.7em;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    color: black !important;
+    background-color: white;
+    opacity: 0.95;
+    padding: 1em;
+}
+
+
+/* ############################################################
+
+    HEADER / NAVBAR
+
+##############################################################*/
+
 header {
     display: flex;
     justify-content: space-between;
@@ -50,8 +84,6 @@ header {
 }
 
 nav {
-    /* display: flex; */
-    /* justify-items: flex-end; */
     font-size: 0.8em;
     text-transform: uppercase;
     cursor: pointer;
@@ -73,37 +105,24 @@ li {
     /* text-indent: -8px; */
 }
 
-img {
-    width: 80%;
-    height: 98%;
-    margin: auto;
-}
 
-footer {
-    position: fixed;
-    width: 100%;
-    bottom: 0em;
-    font-size: 0.7em;
-    display: flex;
-    justify-content: space-between;
-    text-transform: uppercase;
-    color: black!important;
-    background-color: white;
-    opacity: 0.95;
-    padding: 1em;
-}
+/* ############################################################
+
+    CAROUSEL
+
+##############################################################*/
 
 .carousel {
-    height: calc(100vh - 170px);
+    height: calc(100vh - 150px);
     margin-bottom: 2em;
 }
 
 .carousel-item {
-    height: calc(100vh - 170px);
+    height: calc(100vh - 150px);
 }
 
 .carousel-item img {
-    min-height: calc(100vh - 170px);
+    min-height: calc(100vh - 150px);
 }
 
 .section-header {
@@ -118,6 +137,13 @@ footer {
     margin-top: -79px;
     display: inline-block;
 }
+
+
+/* ############################################################
+
+    GENERAL - SECTION SET UP
+
+##############################################################*/
 
 #about {
     text-align: center;
@@ -137,6 +163,13 @@ footer {
     border: black 2px solid;
 }
 
+
+/* ############################################################
+
+    ABOUT SECTION
+
+##############################################################*/
+
 .a-flex-three-column {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -154,6 +187,13 @@ footer {
     grid-column: 1/2;
     padding: 1em
 }
+
+
+/* ############################################################
+
+    RESUME SECTION
+
+##############################################################*/
 
 .r-flex-two-column {
     display: grid;
@@ -191,6 +231,13 @@ footer {
     font-size: 0.7em;
     font-weight: 600;
 }
+
+
+/* ############################################################
+
+    PROJECTS / PORTFOLIO SECTION
+
+##############################################################*/
 
 
 /* Collection of projects */
@@ -522,6 +569,13 @@ footer {
 #portfolio * {
     z-index: 2;
 }
+
+
+/* ############################################################
+
+   MEDIA QUERIES
+
+##############################################################*/
 
 @media (min-width: 767px) {
     #portfolio .portfolio-item {
