@@ -145,7 +145,7 @@ li {
 
 ##############################################################*/
 
-#about-me {
+#about {
     padding-left: 1em;
 }
 
@@ -154,6 +154,10 @@ li {
 .projects {
     padding: 1em;
     margin: 0.5em;
+}
+
+.contact {
+    text-align: center;
 }
 
 .resume {
