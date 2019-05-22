@@ -291,6 +291,9 @@ footer {
         height: calc(100vh - 370px);
         margin-top: 4em;
     }
+    .carousel-caption h3 {
+        font-size: 2em;
+    }
     .carousel-item {
         height: calc(100vh - 370px);
     }
