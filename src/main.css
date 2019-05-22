@@ -44,6 +44,15 @@ header h1 a:hover {
     color: black!important;
 }
 
+.navbar-brand {
+    font-family: mine;
+    letter-spacing: 6px;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 3em;
+}
+
 nav {
     display: flex;
     justify-items: flex-end;
