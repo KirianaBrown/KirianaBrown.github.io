@@ -103,6 +103,25 @@ footer {
 
 /* ######################################## */
 
+
+/* SECONDARY ABOUT CONTAINER */
+
+.contents-container-new {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.image-about {
+    height: 50vh;
+    width: auto;
+    padding: 1em;
+    border-radius: 50%;
+}
+
+
+/* ######################################## */
+
 .about-content {
     width: 60%;
     margin: auto;
