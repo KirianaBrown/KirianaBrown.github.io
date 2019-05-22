@@ -133,8 +133,8 @@ li {
 /* Offset sticky fixed header */
 
 :target {
-    padding-top: 79px;
-    margin-top: -79px;
+    padding-top: 100px;
+    margin-top: -100px;
     display: inline-block;
 }
 
@@ -145,14 +145,11 @@ li {
 
 ##############################################################*/
 
-#about {
-    text-align: center;
-    padding-top: 1em;
-    padding-bottom: 1em;
+#about-me {
+    padding-left: 1em;
 }
 
 .resume,
-.about,
 .contact,
 .projects {
     padding: 1em;
@@ -568,6 +565,10 @@ li {
 
 #portfolio * {
     z-index: 2;
+}
+
+.img-fluid {
+    width: 100%;
 }
 
 
