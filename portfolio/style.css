@@ -20,6 +20,12 @@
     scroll-behavior: smooth;
 }
 
+:target {
+    padding-top: 180px;
+    margin-top: -180px;
+    display: inline-block;
+}
+
 body {
     font-family: Quattrocento, sans-serif;
     color: #656565;
@@ -528,10 +534,33 @@ footer {
     display: flex;
     justify-content: center;
     font-size: 4em;
+    margin-bottom: 2em;
 }
 
 .technology-icons i {
     padding: .2em;
+}
+
+
+/* ###################################################################
+PARALLAX*/
+
+.image-container {
+    background-color: lightslategrey;
+}
+
+.parallax2 {
+    /* The image used */
+    /* background-image: url("image4.png"); */
+    background-image: url("image2.png");
+    /* Set a specific height */
+    height: 450px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.4;
 }
 
 
