@@ -307,7 +307,8 @@ hr {
 }
 
 .career-card {
-    margin-left: 4em;
+    /* margin-left: 1.4em; */
+    padding: 1.4em;
 }
 
 h4 {
@@ -324,7 +325,12 @@ h4 {
 
 .title {
     font-family: 'Quattrocento Sans', sans-serif;
-    color: #191a17;
+    /* color: #191a17; */
+    color: #fdbb07;
+}
+
+.tag.goldinline {
+    display: inline-block;
 }
 
 .location {
@@ -340,6 +346,7 @@ h4 {
     margin-right: 20px;
     margin-left: 0px;
     color: hsla(0, 0%, 40%, .5);
+    font-size: 10px;
 }
 
 footer {
@@ -518,7 +525,7 @@ footer {
     margin-left: 4em;
 }
 
-.section-sub-title {
+.title.section-sub-title {
     text-transform: uppercase;
     font-size: 0.8em;
     font-weight: 800;
