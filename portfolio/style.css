@@ -127,6 +127,7 @@ h1 {
 
 .paragraph {
     width: 410px;
+    margin-top: 2em;
 }
 
 p {
@@ -149,7 +150,7 @@ img {
 .newspanel {
     position: absolute;
     /* top: 651px; */
-    top: 500px;
+    top: 480px;
     display: flex;
     width: 370px;
     height: 60px;
@@ -267,6 +268,7 @@ hr {
 
 .heading-2.about {
     width: 430px;
+    font-size: 30px;
 }
 
 .heading-2 {
@@ -286,6 +288,10 @@ hr {
     letter-spacing: 0.5px;
     text-decoration: none;
     text-transform: uppercase;
+}
+
+.portfolio-text {
+    padding-top: 2em;
 }
 
 .cvposition {
@@ -374,6 +380,10 @@ footer {
     color: #fdbb07;
 }
 
+.opening-sentence {
+    margin-top: 1em;
+}
+
 .base-footer {
     width: 100%;
     background-color: #101318;
@@ -404,6 +414,8 @@ footer {
     display: inline-block;
     margin-top: 10px;
     margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
 
 .portfolio-container {
@@ -427,6 +439,11 @@ footer {
 
 .portfolio-image-container-right {
     grid-column: 1
+}
+
+.heading-personal-project {
+    font-size: 0.8em;
+    color: slategray
 }
 
 
