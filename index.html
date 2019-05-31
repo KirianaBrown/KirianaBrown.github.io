@@ -8,634 +8,770 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content="kiriana brown, kirianabrown, kiriana, official website, github, personal portfolio">
     <meta name="description" content="Kiriana Brown: Official Website">
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" media="screen" href="./src/main.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="./src/portfolio.scss">
+    <link rel="stylesheet" type="text/css" media="screen" href="portfolio/main.css">
+    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-    <link rel="shortcut icon" href="logo transparent.png" type="image/x-icon">
-    <link rel="icon" href="logo transparent.png" type="image/x-icon">
-    <script src="main.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Quattrocento&display=swap" rel="stylesheet">
 
-
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="icon" href="favicon-transparent.png" type="image/x-icon">
 </head>
 
 <body>
 
-    <!-- ############################################################
-    NAVBAR
-    ############################################################## -->
 
-    <nav class="navbar navbar-expand-lg sticky-top">
-        <a class="navbar-brand" href="#">Kiriana Brown</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
-    </button>
-
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#about">ABOUT</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#resume">RESUME</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#projects">PROJECTS</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">CONTACT </a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-
-    <!-- ############################################################
-    CAROUSEL
-    ############################################################## -->
-
-    <div>
-
-        <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item">
-                    <img src="./src/images/slider/image1.png" class="d-block w-100" alt="...">
-                    <div class="carousel-caption">
-                        <h3>UX Designer</h3>
-                        <a href="#resume"><button type="button" class="btn btn-outline-light btn-lg">RESUME</button></a>
-                        <a href="#projects"><button type="button" class="btn btn-outline-light btn-lg">PROJECTS</button></a>
+    <div class="container">
+        <div class="row">
+            <!-- Column Left -->
+            <div class="col-lg-6 col-md-6 left-side">
+                <div class="row nav">
+                    <!-- Navigation Row -->
+                    <div class='menu'>
+                        <div class='tag menu-item'>
+                            <a href="#portfolio" class="menu-item"> Portfolio </a>
+                        </div>
+                        <div class='tag menu-item'>
+                            <a href="#contact" class="menu-item"> Contact </a>
+                        </div>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <img src="./src/images/slider/image2.png" class="d-block w-100" alt="...">
-                    <div class="carousel-caption">
-                        <h3>UI Designer</h3>
-                        <a href="#resume"><button type="button" class="btn btn-outline-light btn-lg">RESUME</button></a>
-                        <a href="#projects"><button type="button"
-                                class="btn btn-outline-light btn-lg">PROJECTS</button></a>
+                <div class="row">
+                    <div>
+                        <img src="portfolio/src/images/profile.png" class="profile-image-responsive" alt="Profile Image - Kiriana Brown">
+                    </div>
+                    <!-- Paragraph Row -->
+                    <div class="headline-panel">
+                        <div class="tag">
+                            Hello my name is
+                        </div>
+                        <h1 class="mainheadline">
+                            <span class="name">Kiriana Brown </span><br> I'm a Designer, an Athlete
+                            <br><span class='spangreylight'>&</span> a web developer.
+                        </h1>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <img src="./src/images/slider/image3.png" class="d-block w-100" alt="...">
-                    <div class="carousel-caption">
-                        <h3>Coffee Lover</h3>
-                        <a href="#resume"><button type="button" class="btn btn-outline-light btn-lg">RESUME</button></a>
-                        <a href="#projects"><button type="button"
-                                class="btn btn-outline-light btn-lg">PROJECTS</button></a>
+                <div class="row">
+                    <!-- Quote and Scroll Row -->
+                    <p class="paragraph"> "Creativity is intelligence having fun" .. Albert Einstein</p>
+                    <div class="social-media-panel-no-display">
+                        <div class="tag orange"> Social</div>
+                        <div class="dividertext"></div>
+                        <div class='social-links'>
+                            <a href="https://github.com/KirianaBrown" target="__blank"><i
+                        class="fab fa-github fa-2x"></i></a>
+                            <a href="https://linkedin.com/in/kirianabrown" target="__blank"><i
+                        class="fab fa-linkedin fa-2x"></i></a>
+                            <a href="https://www.instagram.com/kiriana.codes/" target="__blank"><i
+                        class="fab fa-instagram fa-2x"></i></a>
+                        </div>
                     </div>
-                </div>
-                <div class="carousel-item active">
-                    <img src="./src/images/slider/image4.png" class="d-block w-100" alt="...">
-                    <div class="carousel-caption">
-                        <h3>Web Developer</h3>
-                        <a href="#resume"><button type="button" class="btn btn-outline-light btn-lg">RESUME</button></a>
-                        <a href="#projects"><button type="button"
-                                class="btn btn-outline-light btn-lg">PROJECTS</button></a>
+                    <div class=div-block-2>
+                        <a href="#portfolio" class="link-block">
+                            <div class="tag grey"> Scroll for more</div>
+                            <div class="linklinedeco"></div>
+                        </a>
+
                     </div>
                 </div>
             </div>
-            <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
+
+            <!-- Column Right -->
+            <div class="col-md-6 col-lg-6 right-side">
+
+                <div class="row">
+                    <div>
+                        <img class="profileImage" src="portfolio/src/images/profile.png" alt="Profile Image - Kiriana Brown">
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="social-media-panel">
+                        <div class="tag orange"> Social</div>
+                        <div class="dividertext"></div>
+                        <div class='social-links'>
+                            <a href="https://github.com/KirianaBrown" target="__blank"><i
+                        class="fab fa-github fa-2x"></i></a>
+                            <a href="https://linkedin.com/in/kirianabrown" target="__blank"><i
+                        class="fab fa-linkedin fa-2x"></i></a>
+                            <a href="https://www.instagram.com/kiriana.codes/" target="__blank"><i
+                        class="fab fa-instagram fa-2x"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
+    <div class="divider"></div>
+
+
+
+    <!-- ####################################################
+    SECTION
+    ######################################################## -->
+
+    <div class="container textsection" id="about">
+        <div class="row">
+            <div class="tag"> About </div>
+        </div>
+        <div class="row">
+            <!-- Column Left -->
+            <div class="col-lg-5 left-side">
+                <div class="row">
+                    <h2 class="heading aboutHeading"> Part Designer / Part Developer</h2>
+                </div>
+                <div class="row">
+                    <div>
+                        <img src="portfolio/src/images/piechart.png" class="piechart" alt="piechart">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Column Right -->
+            <div class="col-lg-7 right-side">
+                <div class="row about-right-side">
+                    <p class="portfolio-text"> I'm a <span class="spanyellow">big picture thinker
+                      </span>,
+                        <Span class="spanyellow"> a creator </Span>,
+                        <Span class="spanyellow"> a designer</Span>,
+                        <Span class="spanyellow"> a builder</Span> and a part time
+                        <Span class="spanyellow">athlete</Span>.
+                    </p>
+
+                    <p class="portfolio-text"> Often described as a part this part that multi-platform team member I find it hard to pin point exactly which box to fit into and sometimes that isn't a bad thing. I like to explore different interests and be involved in the swings
+                        and round abouts of different projects.
+                    </p>
+
+                    <p class="portfolio-text"> I'm passionate about sport from giving a go at just about anything to never complaining when a test match at Lords is on in the background. If there is a way to combine my thinking and design abilities with sport then that is exactly
+                        where I want my feet to land.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="divider"></div>
+
+
+    <div class="image-container">
+        <div class="parallax2"></div>
+    </div>
+
+
+    <!-- ####################################################
+    PORTFOLIO
+    ######################################################## -->
+
+    <div class="container textsection" id="skillset">
+        <div class="row">
+            <div class="tag"> My Work </div>
+        </div>
+        <div class="row">
+            <!-- Column Left -->
+            <div class="col-sm left-side">
+                <div class="row">
+                    <h2 class="heading"> Portfolio</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ######################################################
+    PROJECTS
+    ######################################################## -->
+
+    <!-- Portfolio Grid -->
+    <section class="bg-light page-section" id="portfolio">
+        <div class="container portfolio">
+            <div class="row">
+                <!-- Portfolio Item 1 -->
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fas fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="portfolio/src/images/whiteelephant.png" alt="White Elephant">
+                    </a>
+                    <div class="portfolio-caption clientheading">
+                        <h4>White Elephant Trust</h4>
+                        <p class="text-muted">Squarespace</p>
+                    </div>
+                </div>
+                <!-- Portfolio Item 2 -->
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fas fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="portfolio/src/images/orbicauxreview.png" alt="Orbica UX Review">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Orbica</h4>
+                        <p class="text-muted">UX Design review </p>
+                    </div>
+                </div>
+                <!-- Portfolio Item 3 -->
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fas fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="portfolio/src/images/orbicawebsite.png" alt="Orbica Website">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Orbica</h4>
+                        <p class="text-muted">Web Design | Development </p>
+                    </div>
+                </div>
+                <!-- Portfolio Item 4 -->
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fas fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="portfolio/src/images/komodo.png" alt="Komodo Monitr Dashboard">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Komodo Monitr</h4>
+                        <p class="text-muted">Studio Project </p>
+                    </div>
+                </div>
+                <!-- Portfolio Item 5 -->
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fas fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="portfolio/src/images/cerebralfix.png" alt="Cerebral Fix Logo">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Cerebral Fix</h4>
+                        <p class="text-muted">Studio Project </p>
+                    </div>
+                </div>
+                <!-- Portfolio Item 6 -->
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fas fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="portfolio/src/images/dicegame.png" alt="Dice Game Project">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4 class="heading-personal-project">Personal Project</h4>
+                        <p class="text-muted">JS | Dice Game </p>
+                    </div>
+                </div>
+                <!-- Portfolio Item 7 -->
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal7">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fas fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="portfolio/src/images/magic8ball.png" alt="Magic 8 ball Project">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4 class="heading-personal-project">Personal Project</h4>
+                        <p class="text-muted">JS | Magic 8 Ball </p>
+                    </div>
+                </div>
+                <!-- Portfolio Item 8 -->
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal8">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fas fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="portfolio/src/images/nzmusiclive.png" alt="NZ Music Live Project">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4 class="heading-personal-project">Uni Project</h4>
+                        <p class="text-muted">Responsive Web Design </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </section>
+
+
     <!-- ############################################################
-    ABOUT 
-    ############################################################## -->
-
-    <div class="container-container-main">
-        <div class="about" id='about'>
-            <h1 class="section-header"> Learn more about me</h1>
-            <hr>
-            <div class="a-flex-three-column">
-                <div class="a-image">
-                    <img src=" src/images/profile.png" alt="Profile Image " class="image-about">
-                    <h4>Kiriana Brown</h4>
-                    <p class="text-muted">Designer / Developer / Coffee Lover</p>
-                    <!-- <ul class="list-inline social-buttons">
-                        <li class="list-inline-item">
-                            <a href="https://github.com/KirianaBrown" target="__blank"><i
-                                    class="fab fa-github fa-2x"></i></a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="https://linkedin.com/in/kirianabrown" target="__blank"><i
-                                    class="fab fa-linkedin fa-2x"></i></a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="https://www.instagram.com/kiriana.codes/" target="__blank"><i
-                                     class="fab fa-instagram fa-2x"></i></a>
-                        </li>
-                    </ul> -->
-
-                </div>
-                <div class="a-content">
-                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui natus, quos provident facilis vel molestias totam explicabo delectus, soluta quaerat vitae, repudiandae repellendus dolor neque omnis dicta non voluptates quisquam!</p>
-                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui natus, quos provident facilis vel molestias totam explicabo delectus, soluta quaerat vitae, repudiandae repellendus dolor neque omnis dicta non voluptates quisquam!</p>
-                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui natus, quos provident facilis vel molestias totam explicabo delectus, soluta quaerat vitae, repudiandae repellendus dolor neque omnis dicta non voluptates quisquam!</p>
-                </div>
-
-            </div>
-
-
-            <!-- Services -->
-            <!-- <section class="page-section" id="services">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12 text-center">
-                            <h2 class="section-heading text-uppercase">Services</h2>
-                            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                        </div>
-                    </div>
-                    <div class="row text-center">
-                        <div class="col-md-4">
-                            <span class="fa-stack fa-4x">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
-                            </span>
-                            <h4 class="service-heading">E-Commerce</h4>
-                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                        </div>
-                        <div class="col-md-4">
-                            <span class="fa-stack fa-4x">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
-                            </span>
-                            <h4 class="service-heading">Responsive Design</h4>
-                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                        </div>
-                        <div class="col-md-4">
-                            <span class="fa-stack fa-4x">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fas fa-pen-fancy fa-stack-1x fa-inverse"></i>
-                            </span>
-                            <h4 class="service-heading">Web Security</h4>
-                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                        </div>
-                    </div>
-                </div>
-            </section> -->
-
-        </div>
-        <hr>
-
-        <!-- ############################################################
-        RESUME
-        ############################################################## -->
-        <!-- Resume Section -->
-        <div class="resume">
-            <h1 class="section-header" id="resume"> Resume</h1>
-            <hr>
-            <div class='r-flex-two-column'>
-                <div class='r-heading-column'>
-                    <h5>Technologies</h5>
-                </div>
-                <div class="r-content-section">
-                    <div class="r-technology-section">
-                        <div class="c-technology">
-                            <h6 class="section-sub-title"> Comfortable with </h6>
-                            <ul>
-                                <li> HTML </li>
-                                <li> CSS </li>
-                                <li> Github & Gitlab </li>
-                                <li> Bootstrap </li>
-                                <li> Photoshop </li>
-                                <li> Sketch </li>
-                                <li> Squarespace </li>
-                                <li> Hotjar </li>
-                                <li> Google Analytics </li>
-                            </ul>
-                        </div>
-
-                        <div class="e-technology">
-                            <h6 class="section-sub-title"> Experience with </h6>
-                            <ul>
-                                <li> React </li>
-                                <li> Vuejs </li>
-                                <li> Firebase </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class='r-flex-two-column'>
-                <div class='r-heading-column'>
-                    <h5>Work Experience</h5>
-                </div>
-                <div class="r-content-section">
-                    <div>
-                        <h6 class="section-sub-title"> Job Role </h6>
-                        <h6 class="section-sub-heading"> Work Place Date </h6>
-                        <p class="section-description"> Description of the role and what it involved</p>
-                    </div>
-                    <div>
-                        <h6 class="section-sub-title"> Job Role </h6>
-                        <h6 class="section-sub-heading"> Work Place Date </h6>
-                        <p class="section-description"> Description of the role and what it involved</p>
-                    </div>
-                    <div>
-                        <h6 class="section-sub-title"> Job Role </h6>
-                        <h6 class="section-sub-heading"> Work Place Date </h6>
-                        <p class="section-description"> Description of the role and what it involved</p>
-                    </div>
-                    <div>
-                        <h6 class="section-sub-title"> Job Role </h6>
-                        <h6 class="section-sub-heading"> Work Place Date </h6>
-                        <p class="section-description"> Description of the role and what it involved</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class='r-flex-two-column'>
-                <div class='r-heading-column'>
-                    <h5>Education</h5>
-                </div>
-                <div class="r-content-section">
-                    <div>
-                        <h6 class="section-sub-title"> Qualification </h6>
-                        <h6 class="section-sub-heading"> Place and dates </h6>
-                    </div>
-                    <div>
-                        <h6 class="section-sub-title"> Qualification </h6>
-                        <h6 class="section-sub-heading"> Place and dates </h6>
-                    </div>
-                    <div>
-                        <h6 class="section-sub-title"> Qualification </h6>
-                        <h6 class="section-sub-heading"> Place and dates </h6>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
-        <!-- ############################################################
-    PROJECTS - CONTAINERS
-    ############################################################## -->
-        <!-- <div class="projects">
-            <h1 class="section-header" id="projects"> Project Collection</h1>
-            <div class="collection-container">
-                <div class="card-container">
-                    <img class="collection-image" src="images/whiteelephant-ConvertImage.png" alt="" />
-                    <p class="card-title">White Elephant Trust</p>
-                    <div class="card-overlay"></div>
-                    <div class="card-button"><a href="https://www.whiteelephanttrust.org.nz/" target="__blank"> VIEW </a></div>
-                </div>
-                <div class="card-container">
-                    <img class="collection-image" src="images/dicegame-ConvertImage.png" alt="" />
-                    <p class="card-title">Pig Dice Game</p>
-                    <div class="card-overlay"></div>
-                    <div class="card-button"><a href="https://kirianabrown.github.io/pig-dice-game/." target="__blank"> VIEW
-                </a></div>
-                </div>
-                <div class="card-container">
-                    <img class="collection-image" src="images/magic8group-ConvertImage.png" alt="" />
-                    <p class="card-title">Magic 8 Ball</p>
-                    <div class="card-overlay"></div>
-                    <div class="card-button"><a href="https://kirianabrown.github.io/magic-8-ball/" target="__blank"> VIEW </a>
-                    </div>
-                </div>
-                <div class="card-container">
-                    <img class="collection-image" src="images/nzmusiclive-ConvertImage.png" alt="" />
-                    <p class="card-title">NZ Music Live</p>
-                    <div class="card-overlay"></div>
-                    <div class="card-button"><a href=" https://kirianabrown.github.io/nzmusiclive-webapp/" target="__blank">
-                    VIEW </a></div>
-                </div>
-            </div>
-
-        </div> -->
-
-        <!-- Portfolio Grid -->
-        <section class="bg-light page-section" id="portfolio">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h2 class="section-heading text-uppercase">Portfolio</h2>
-                        <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4 col-sm-6 portfolio-item">
-                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fas fa-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img class="img-fluid" src="images/whiteelephant-ConvertImage.png" alt="">
-                        </a>
-                        <div class="portfolio-caption">
-                            <h4>White Elephant Trust</h4>
-                            <p class="text-muted">Squarespace</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 portfolio-item">
-                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fas fa-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img class="img-fluid" src="images/whiteelephant-ConvertImage.png" alt="">
-                        </a>
-                        <div class="portfolio-caption">
-                            <h4>Orbica</h4>
-                            <p class="text-muted">Web App - Vue</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 portfolio-item">
-                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fas fa-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img class="img-fluid" src="images/whiteelephant-ConvertImage.png" alt="">
-                        </a>
-                        <div class="portfolio-caption">
-                            <h4>Komodo Monitr</h4>
-                            <p class="text-muted">React Dashboard Prototype</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 portfolio-item">
-                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fas fa-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img class="img-fluid" src="images/whiteelephant-ConvertImage.png" alt="">
-                        </a>
-                        <div class="portfolio-caption">
-                            <h4>Cerebral Fix</h4>
-                            <p class="text-muted">Web App</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 portfolio-item">
-                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fas fa-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img class="img-fluid" src="images/whiteelephant-ConvertImage.png" alt="">
-                        </a>
-                        <div class="portfolio-caption">
-                            <h4>White Elephant Trust</h4>
-                            <p class="text-muted">Squarespace</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 portfolio-item">
-                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fas fa-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img class="img-fluid" src="images/magic8group-ConvertImage.png" alt="">
-                        </a>
-                        <div class="portfolio-caption">
-                            <h4>Magic 8 Ball</h4>
-                            <p class="text-muted">Javascript</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 portfolio-item">
-                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal7">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fas fa-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img class="img-fluid" src="images/dicegame-ConvertImage.png" alt="">
-                        </a>
-                        <div class="portfolio-caption">
-                            <h4>Dice Game</h4>
-                            <p class="text-muted">Javascript</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 portfolio-item">
-                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal8">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fas fa-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img class="img-fluid" src="images/nzmusiclive-ConvertImage.png" alt="">
-                        </a>
-                        <div class="portfolio-caption">
-                            <h4>NZ Music Live</h4>
-                            <p class="text-muted">Responsive Web Design</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 portfolio-item">
-                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal9">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fas fa-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img class="img-fluid" src="images/magic8group-ConvertImage.png" alt="">
-                        </a>
-                        <div class="portfolio-caption">
-                            <h4>Weather App</h4>
-                            <p class="text-muted">React</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- ############################################################
     PROJECT - MODALS
     ############################################################## -->
 
-        <!-- Modal 1 -->
-        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-dismiss="modal">
-                        <div class="lr">
-                            <div class="rl"></div>
-                        </div>
+    <!-- Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"></div>
                     </div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-8 mx-auto">
-                                <div class="modal-body">
-                                    <!-- Project Details Go Here -->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae
-                                        cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>Date: January 2017</li>
-                                        <li>Client: Threads</li>
-                                        <li>Category: Illustration</li>
-                                    </ul>
-                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
-                                        <i class="fas fa-times"></i>
-                                        Close Project</button>
-                                </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 mx-auto">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2 class="text-uppercase">White Elephant Trust</h2>
+                                <p class="item-intro text-muted">Website rebranding / design and developement</p>
+                                <img class=" d-block mx-auto" src="portfolio/src/images/whiteelephant.png" alt="White Elephant Trust">
+                                <p>White Elephant Trust was founded in 2005 by a group of DJ’s who wanted to create safe events and projects for young people. Since 2014 more than 17,000 have taken part in their events and programmes. With a change in leadership
+                                    the trust was after a rebranding and refresh to increase engagement. </p>
+                                <ul class="list-inline">
+                                    <li>Date: November 2018</li>
+                                    <li>Client: White Elephant Trust</li>
+                                    <li>Category: Web Design / Squarespace Development</li>
+                                </ul>
+                                <!-- a href button -->
+                                <a href="https://www.whiteelephanttrust.org.nz/" target="__blank" class="button productionbutton modalbutton"> Live website </a><br>
+                                <button class="btn btn-yellow" data-dismiss="modal" type="button">
+                    <i class="fas fa-times"></i>
+                    Close Project</button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-
-        <!-- Modal 2 -->
-        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-dismiss="modal">
-                        <div class="lr">
-                            <div class="rl"></div>
-                        </div>
-                    </div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-8 mx-auto">
-                                <div class="modal-body">
-                                    <!-- Project Details Go Here -->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt="">
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae
-                                        cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>Date: January 2017</li>
-                                        <li>Client: Explore</li>
-                                        <li>Category: Graphic Design</li>
-                                    </ul>
-                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
-                                        <i class="fas fa-times"></i>
-                                        Close Project</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Modal 3 -->
-        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-dismiss="modal">
-                        <div class="lr">
-                            <div class="rl"></div>
-                        </div>
-                    </div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-8 mx-auto">
-                                <div class="modal-body">
-                                    <!-- Project Details Go Here -->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt="">
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae
-                                        cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>Date: January 2017</li>
-                                        <li>Client: Finish</li>
-                                        <li>Category: Identity</li>
-                                    </ul>
-                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
-                                        <i class="fas fa-times"></i>
-                                        Close Project</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Modal 4 -->
-        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-dismiss="modal">
-                        <div class="lr">
-                            <div class="rl"></div>
-                        </div>
-                    </div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-8 mx-auto">
-                                <div class="modal-body">
-                                    <!-- Project Details Go Here -->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt="">
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae
-                                        cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>Date: January 2017</li>
-                                        <li>Client: Finish</li>
-                                        <li>Category: Identity</li>
-                                    </ul>
-                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
-                                        <i class="fas fa-times"></i>
-                                        Close Project</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <hr>
-
-        <!-- ############################################################
-    CONTACT
-    ############################################################## -->
-
-        <div class="contact">
-            <h1 class="section-header" id="contact"> Get in touch </h1>
-            <!-- Contact Section -->
-            <div class="closing-paragraph">
-                <h3 class="statement"> Connect </h3>
-                <p> Email: kiriana.j.brown@gmail.com</p>
-                <a href="https://github.com/KirianaBrown" target="__blank"><i class="fab fa-github fa-2x"></i></a>
-                <a href="https://linkedin.com/in/kirianabrown" target="__blank"><i
-                         class="fab fa-linkedin fa-2x"></i></a>
-                <a href="https://www.instagram.com/kiriana.codes/" target="__blank"><i
-                         class="fab fa-instagram fa-2x"></i></a>
-            </div>
-            <hr>
         </div>
     </div>
-    <hr>
 
-    <!-- ############################################################
-    FOOTER
-    ############################################################## -->
-
-    <footer>
-
-        <p> &copy; 2019 Kiriana Brown </p>
-
-        <div class="social-icons">
-            <a href="https://github.com/KirianaBrown" target="__blank"><i class="fab fa-github fa-2x"></i></a>
-            <a href="https://linkedin.com/in/kirianabrown" target="__blank"><i class="fab fa-linkedin fa-2x"></i></a>
-            <a href="https://www.instagram.com/kiriana.codes/" target="__blank"><i class="fab fa-instagram fa-2x"></i></a>
+    <!-- Modal 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"></div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 mx-auto">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2 class="text-uppercase">Orbica UX Review</h2>
+                                <p class="item-intro text-muted">UX / UI Product Review</p>
+                                <img class="d-block mx-auto" src="portfolio/src/images/orbicauxreview.png" alt="Orbica UX Review">
+                                <p>Orbica are a christchurch based location data specialist business with an incredible ability to present spatial data in engaging and interactive form. This project was centered around performing a full UX / UI review of
+                                    one of their leading products finalising in a product report with design recommendations to improve usability.</p>
+                                <ul class="list-inline">
+                                    <li>Date: January 2019</li>
+                                    <li>Client: Orbica</li>
+                                    <li>Category: UX Review</li>
+                                </ul>
+                                <button class="btn btn-yellow" data-dismiss="modal" type="button">
+                    <i class="fas fa-times"></i>
+                    Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"></div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 mx-auto">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2 class="text-uppercase">Orbica</h2>
+                                <p class="item-intro text-muted">Web app design & development</p>
+                                <img class="d-block mx-auto" src="portfolio/src/images/orbicawebsite.gif" alt="Orbica Website Presentation">
+                                <p>Orbica are a christchurch based location data specialist company who specialise in presenting spatial data in an engaging and interactive form. One of their latest products required the design and build of a supporting
+                                    web app to encourage and describe the process for new clients to get involved. </p>
+                                <p>This project was completed as part of a uni course in a 2 person team environment. The design phase involved interviewing current and potential clients followed by the creation of user personas, wireframes and prototypes.
+                                    Following sign off approval from project owner development was undetaken using html, css, scss, vue js and connecting to the existing craft cms structure.</p>
+                                <ul class="list-inline">
+                                    <li>Date: June 2019</li>
+                                    <li>Client: Orbica (Uni Project)</li>
+                                    <li>Category: Uni Project</li>
+                                </ul>
+                                <button class="btn btn-yellow" data-dismiss="modal" type="button">
+                    <i class="fas fa-times"></i>
+                    Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 4 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"></div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 mx-auto">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2 class="text-uppercase">Komodo Monitr</h2>
+                                <p class="item-intro text-muted">Studio Project - Player Dashboard Web App</p>
+                                <img class="d-block mx-auto" src="portfolio/src/images/komodo.gif" alt="Komodo Monitr Presentation">
+                                <p>Komodo Monitr are a Christchurch based start up working with high perfomance athletes to prevent injury and increase player avaliability.</p>
+                                <p>My studio team developed a single page React app that accessed the Komodo Monitr REST API. The responsive design focused on the key 'Insights' which drive player improvement. Players can see their performance at a glance
+                                    or dive deep into the data for further analysis.</p>
+                                <p> My role within the studio team was as lead UX / UI designer along with developing the key layout components for development.</p>
+                                </p>
+                                <ul class="list-inline">
+                                    <li>Date: May 2019</li>
+                                    <li>Client: Komodo Monitr</li>
+                                    <li>Category: Studio Project</li>
+                                </ul>
+                                <button class="btn btn-yellow" data-dismiss="modal" type="button">
+                    <i class="fas fa-times"></i>
+                    Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 5 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"></div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 mx-auto">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2 class="text-uppercase">Cerebral Fix</h2>
+                                <p class="item-intro text-muted">Studio Project - Location Device Web App</p>
+                                <img class="d-block mx-auto" src="portfolio/src/images/cerebralfixpresentation.png" alt="Cerebral Fix Presentation">
+                                <p>Cerebral Fix is a Christchurch Game, VR and App Development company. To test their mobile apps they have a range of devices, shared between various development and testing teams. The existing whiteboard-based system for
+                                    tracking their devices was not effective, especially with the company now split between two offices. </p>
+                                <p>We used Flask (a Python micro-framework) to develop a web app which was hosted on Heroku and connected to a PostgreSQL database. The app required a valid login before allowing users to search the list of devices and filter
+                                    by brand, form factor, spec quality and OS version. A user could then identify who had the device and/or assign the device to themselves. Our app had comprehensive management tools for users and devices, including add,
+                                    remove, history and default options. </p>
+                                <p>My role within the project team was as design and layout developer creating the front end styled aspects of the UI.</p>
+                                </p>
+                                <ul class="list-inline">
+                                    <li>Date: April 2019</li>
+                                    <li>Client: Cerebral Fix</li>
+                                    <li>Category: Studio Project</li>
+                                </ul>
+                                <button class="btn btn-yellow" data-dismiss="modal" type="button">
+                                    <i class="fas fa-times"></i>
+                                    Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 6 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"></div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 mx-auto">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2 class="text-uppercase">Dice Game</h2>
+                                <p class="item-intro text-muted">Vanilla JS Web App Game</p>
+                                <img class=" d-block mx-auto" src="portfolio/src/images/dicegame.png" alt="Dice Game Application">
+                                <p>Vanilla JS Dice Game application where two players play off against each by 'Rolling' a dice. If a player 'Rolls' a 1 then the round is lost and the next player plays. A player can select to hold their round score which
+                                    will be added to their overall global score. The first player to reach 100 wins. </p>
+                                <ul class="list-inline">
+                                    <li>Date: January 2019</li>
+                                    <li>Category: Personal Project</li>
+                                </ul>
+                                <!-- a href button -->
+                                <a href="https://kirianabrown.github.io/pig-dice-game/" target="__blank" class="button productionbutton modalbutton"> Play Game </a><br>
+                                <button class="btn btn-yellow" data-dismiss="modal" type="button">
+                                    <i class="fas fa-times"></i>
+                                    Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 7 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"></div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 mx-auto">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2 class="text-uppercase">Magic 8 ball</h2>
+                                <p class="item-intro text-muted">Vanilla JS Magic 8 Ball Game</p>
+                                <img class=" d-block mx-auto" src="portfolio/src/images/magic8ball.png" alt="Magic 8 Ball Game Application">
+                                <p>Vanilla JS Magic 8 ball application created while learning html, css and javascript. The application asks for a user input and on a trigger will generate a random number to pull a random answer from the array and then display
+                                    on the screen. </p>
+                                <ul class="list-inline">
+                                    <li>Date: November 2018</li>
+                                    <li>Category: Personal Project</li>
+                                </ul>
+                                <!-- a href button -->
+                                <a href="https://kirianabrown.github.io/magic-8-ball/" target="__blank" class="button productionbutton modalbutton"> Play Game </a><br>
+                                <button class="btn btn-yellow" data-dismiss="modal" type="button">
+                                    <i class="fas fa-times"></i>
+                                    Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 8 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"></div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 mx-auto">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2 class="text-uppercase">Reponsive Web App</h2>
+                                <p class="item-intro text-muted">NZ Music Live Web App</p>
+                                <img class="d-block mx-auto" src="portfolio/src/images/nzmusiclive.png" alt="NZ Music Live Application">
+                                <p>HTML / CSS / JS reponsive web design project for mock company NZ Music Live. Includes 11 page site map with full reponsive design to allow for viewing on mobile device. Website embeds video recordings from youtube as well
+                                    as google maps for street location. </p>
+                                <ul class="list-inline">
+                                    <li>Date: September 2018</li>
+                                    <li>Category: Uni Project</li>
+                                </ul>
+                                <!-- a href button -->
+                                <a href="https://kirianabrown.github.io/nzmusiclive-webapp/" target="__blank" class="button productionbutton modalbutton"> View Website </a><br>
+                                <button class="btn btn-yellow" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times"></i>
+                                        Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class='divider'></div>
+
+
+    <!-- ######################################################
+    RESUME - EDUCATION
+    ######################################################## -->
+    <div class="container">
+        <div class="row">
+            <div class="tag"> Resume </div>
+        </div>
+        <div class="row cvdownload">
+            <a href="portfolio/src/docs/KirianaBrown.pdf" download="Kiriana Brown | Resume" target="__blank" class="button button-share">Download
+  Resume (pdf)</a>
+        </div>
+
+        <div class="row">
+            <div class="col-sm left-side">
+                <div class="row">
+                    <h2 class="heading"> Career </h2>
+                    <div class="career-titles">
+                        <div class="career-card">
+                            <h4 class="employer"> Orbica </h4>
+                            <div class="title"> UX Design Internship </div>
+                            <div class="location"> Christchurch | NZ</div>
+                            <div class="time"> Jan 2019 - April 2019 </div>
+                        </div>
+                        <div class="career-card">
+                            <h4 class="employer"> White Elephant Trust <span class="tag greyinline"> Volunteer</span></h4>
+                            <div class="title"> Web Design </div>
+                            <div class="location"> Christchurch | NZ </div>
+                            <div class="time"> November 2018 - March 2019 </div>
+                        </div>
+                        <div class="career-card">
+                            <h4 class="employer"> Tegel Foods Ltd </h4>
+                            <div class="title"> Management Cadet </div>
+                            <div class="location"> Christchurch | NZ </div>
+                            <div class="time"> Nov 2014 - Jan 2018 </div>
+                        </div>
+                        <div class="career-card">
+                            <h4 class="employer"> Tegel Foods Ltd </h4>
+                            <div class="title"> Production Cost Analyst </div>
+                            <div class="location"> Christchurch | NZ </div>
+                            <div class="time"> June 2014 - Nov 2014 </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="divider"></div>
+        <div class="row">
+            <!-- Column Left -->
+            <div class="col-sm left-side">
+                <div class="row">
+                    <h2 class="heading"> Education </h2>
+                </div>
+                <div class="career-titles">
+                    <div class="career-card">
+                        <h4 class="employer"> Signal ICT Graduate School </h4>
+                        <div class="title"> Graduate Dip in ICT </div>
+                        <div class="job-description"></div>
+                        <div class="location"> Christchurch | NZ </div>
+                        <div class="time"> Feb 2018 - Nov 2018 </div>
+                    </div>
+                    <div class="career-card">
+                        <h4 class="employer"> University of Otago </h4>
+                        <div class="title"> BSc Physiology </div>
+                        <div class="job-description"></div>
+                        <div class="location"> Dunedin | NZ </div>
+                        <div class="time"> 2009 - 2011 </div>
+                    </div>
+                    <div class="career-card">
+                        <h4 class="employer"> Marian College </h4>
+                        <div class="title"> NCEA Level 3 </div>
+                        <div class="job-description"></div>
+                        <div class="location"> Christchurch | NZ</div>
+                        <div class="time"> 2004 - 2008 </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="divider"></div>
+
+        <div class="row">
+            <!-- Column Left -->
+            <div class="col-sm left-side">
+                <div class="row">
+                    <h2 class="heading"> Technology </h2>
+                </div>
+                <div class='r-flex-two-column'>
+                    <div class="c-technology">
+                        <h6 class="title section-sub-title"> Comfortable with </h6>
+                        <ul>
+                            <li> HTML </li>
+                            <li> CSS </li>
+                            <li> Github & Gitlab </li>
+                            <li> Bootstrap </li>
+                            <li> Photoshop </li>
+                            <li> Sketch </li>
+                            <li> Squarespace </li>
+                            <li> Hotjar </li>
+                            <li> Google Analytics </li>
+                        </ul>
+                    </div>
+                    <div class="e-technology">
+                        <h6 class="title section-sub-title"> Experience with </h6>
+                        <ul>
+                            <li> React </li>
+                            <li> Vuejs </li>
+                            <li> Firebase </li>
+                        </ul>
+                        <h6 class="title section-sub-title"> Currently Refining </h6>
+                        <ul>
+                            <li> Javascript (ES6) </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class='technology-icons'>
+                    <i class="fab fa-html5"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-bootstrap"></i>
+                    <i class="fab fa-sketch"></i>
+                    <i class="fab fa-adobe"></i>
+                    <i class="fab fa-hotjar"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class='divider'></div>
+
+    <!-- ######################################################
+    Footer
+    ######################################################## -->
+    <footer id="contact">
+        <div class="section">
+            <div class="tag"> Get in touch </div>
+            <div class="heading white"> Contact </div>
+            <p><span class="spanyellow">Email:</span> kiriana.j.brown@gmail.com</p>
+        </div>
+        <div class="base-footer">
+            <h6>&copy; Kiriana Brown 2019</h6>
+            <div class='social-links'>
+                <a href="https://github.com/KirianaBrown" target="__blank"><i class="fab fa-github fa-2x"></i></a>
+                <a href="https://linkedin.com/in/kirianabrown" target="__blank"><i class="fab fa-linkedin fa-2x"></i></a>
+                <a href="https://www.instagram.com/kiriana.codes/" target="__blank"><i
+                class="fab fa-instagram fa-2x"></i></a>
+            </div>
+
+
+        </div>
+
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
 
 </body>
 
