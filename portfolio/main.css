@@ -1,6 +1,6 @@
 @font-face {
     font-family: mine;
-    src: url("Prestige Signature Script - Demo.ttf");
+    src: url("/src/fonts/Prestige Signature Script - Demo.ttf");
 }
 
 
@@ -296,20 +296,19 @@ PROFILE IMAGE */
 /* ----------------------------------------- 
 PARALLAX */
 
-
-/* .image-container {
+.image-container {
     background-color: lightslategrey;
 }
 
 .parallax2 {
-    background-image: url("image2.png");
+    background-image: url("src/images/image4.png");
     height: 450px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.4;
-} */
+}
 
 
 /* ----------------------------------------- 
