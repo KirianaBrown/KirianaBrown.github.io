@@ -1,6 +1,6 @@
 @font-face {
     font-family: mine;
-    src: url("/src/fonts/Prestige Signature Script - Demo.ttf");
+    src: url('src/fonts/Prestige\ Signature\ Script\ -\ Demo.ttf')
 }
 
 
@@ -59,6 +59,44 @@ h4 {
     font-weight: 400;
     letter-spacing: 2px;
     text-transform: uppercase;
+}
+
+
+/* ----------------------------------------- 
+ NEW DESIGN */
+
+.topSection {
+    /* height: 100vh; */
+    background: rgba(0, 0, 0, 0.9);
+    /* background: rgb(10, 81, 112);
+    background: linear-gradient(240deg, rgba(10, 81, 112, 1) 0%, rgba(121, 9, 9, 1) 66%, rgba(3, 0, 36, 1) 100%); */
+    padding: 2em;
+}
+
+.menuNav {
+    display: flex;
+    text-align: left;
+    /* padding: 2em; */
+    padding-top: 6em;
+    padding-left: 2em;
+}
+
+.logoIntroSection {
+    text-align: center;
+    margin-bottom: 4em;
+}
+
+.logoIntroSection h1 {
+    font-family: mine;
+    font-size: 8em;
+    color: white;
+    padding: .5em;
+}
+
+.logoIntroSection h6 {
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: .7em;
+    padding: 1.2em;
 }
 
 
@@ -233,7 +271,7 @@ PROFILE IMAGE */
     margin-top: 1px;
     margin-bottom: 0px;
     font-family: 'Quattrocento Sans', sans-serif;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 26px;
     color: #c2c2c2
 }
