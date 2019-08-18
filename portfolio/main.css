@@ -81,6 +81,11 @@ h4 {
     padding-left: 2em;
 }
 
+.flexedSection {
+    display: grid;
+    grid-template-columns: 98% 2%
+}
+
 .logoIntroSection {
     text-align: center;
     margin-bottom: 4em;
@@ -97,6 +102,15 @@ h4 {
     font-family: 'Quattrocento Sans', sans-serif;
     font-size: .7em;
     padding: 1.2em;
+}
+
+.coords {
+    -webkit-writing-mode: vertical-lr;
+    -ms-writing-mode: tb-lr;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    /* text-orientation: sideways; */
+    font-size: 0.8em;
 }
 
 
