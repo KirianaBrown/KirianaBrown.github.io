@@ -65,6 +65,10 @@ h4 {
 /* ----------------------------------------- 
  NEW DESIGN */
 
+
+/* ----------------------------------------- 
+ TOP LAYOUT SECTION */
+
 .topSection {
     /* height: 100vh; */
     background: rgba(0, 0, 0, 0.9);
@@ -96,6 +100,7 @@ h4 {
     font-size: 8em;
     color: white;
     padding: .5em;
+    /* text-transform: none; */
 }
 
 .logoIntroSection h6 {
@@ -117,21 +122,9 @@ h4 {
 /* ----------------------------------------- 
  TOP LAYOUT SECTION */
 
-.left-side {}
-
-.right-side {}
-
 
 /* ----------------------------------------- 
  MENU AND NAVIGATION */
-
-.row.nav {}
-
-.menu {
-    display: flex;
-    margin-top: 68px;
-    text-align: left;
-}
 
 .tag {
     font-family: 'Quattrocento Sans', sans-serif;
@@ -151,24 +144,7 @@ h4 {
 
 
 /* -----------------------------------------  
-Paragraph Section */
-
-.mainheadline {
-    margin-top: 20px;
-    font-size: 2em;
-    line-height: 48px;
-}
-
-.name {
-    font-size: 3.4em;
-    line-height: 66px;
-    padding-top: 1em;
-}
-
-.headline-panel {
-    margin-top: 114px;
-    width: 100%;
-}
+General Styles */
 
 h1 {
     margin-top: 10px;
@@ -181,96 +157,6 @@ h1 {
     text-transform: uppercase;
 }
 
-.spangreylight {
-    color: #c2c2c2;
-    font-weight: 200;
-}
-
-.paragraph {
-    width: 410px;
-    margin-top: 2em;
-}
-
-
-/* ----------------------------------------- 
-Quote Section */
-
-.div-block-2 {
-    display: flex;
-    margin-top: 0px;
-    -webkit-box-align: center;
-    align-items: center;
-}
-
-.tag.grey {
-    display: inline-block;
-    padding-right: 0px;
-    color: #656565;
-}
-
-.linklinedeco {
-    display: inline-block;
-    width: 20px;
-    height: 1px;
-    margin-top: -4px;
-    margin-left: 15px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    background-image: linear-gradient(180deg, rgba(25, 26, 23, .4), rgba(25, 26, 23, .4));
-}
-
-.link-block {
-    margin-top: 48px;
-    opacity: 0.4;
-    transition: opacity 300ms ease;
-}
-
-
-/* -----------------------------------------  
-PROFILE IMAGE */
-
-.profileImage {
-    width: 100%;
-    padding-left: 1em;
-    /* padding-right: 1em; */
-}
-
-.profile-image-responsive {
-    display: none;
-    border-radius: 50%;
-    /* border: white 2px solid; */
-}
-
-
-/* ----------------------------------------- 
- SOCIAL LINKS MENU */
-
-.social-media-panel {
-    position: absolute;
-    top: 550px;
-    display: flex;
-    width: 370px;
-    height: 60px;
-    padding-right: 30px;
-    padding-left: 30px;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    background-color: #fff;
-    color: #191a17;
-}
-
-.social-media-panel-no-display {
-    display: none;
-}
-
-.tag.orange {
-    display: inline-block;
-    margin-top: 1px;
-    color: #fdbb07;
-}
-
 .dividertext {
     display: inline-block;
     width: 1px;
@@ -279,6 +165,10 @@ PROFILE IMAGE */
     margin-left: 20px;
     background-color: #e7e7e7;
 }
+
+
+/* ----------------------------------------- 
+ SOCIAL LINKS MENU */
 
 .social-links {
     display: inline-block;
@@ -298,6 +188,30 @@ PROFILE IMAGE */
 .social-links a:hover {
     color: #fdbb07;
 }
+
+
+/* ----------------------------------------- 
+ SECOND SECTION */
+
+.newPortfolio {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+#portfolioHeading {
+    text-align: center;
+}
+
+#portfolioViewMoreBtn {
+    text-align: center;
+    margin: 0 auto!important;
+    margin-top: 2em!important;
+    margin-bottom: 2em !important;
+}
+
+
+/* .portfolioContainer {
+    background-color: rgba(0, 0, 0, 0.9);
+} */
 
 
 /* ----------------------------------------- 
